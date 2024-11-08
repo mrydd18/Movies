@@ -31,6 +31,21 @@ class MainActivity : AppCompatActivity() {
             "The Dark Knight",
             9.0,
             imageView = R.drawable.darkknight
+        ),
+        Movies(
+            "Pulp Fiction",
+            8.9,
+            imageView = R.drawable.pulp
+        ),
+        Movies(
+            "The Shawshank Redemption",
+            9.3,
+            imageView = R.drawable.shawshank
+        ),
+        Movies(
+            "The Lord of the Rings",
+            8.9,
+            imageView = R.drawable.lordofrings
         )
     )
 

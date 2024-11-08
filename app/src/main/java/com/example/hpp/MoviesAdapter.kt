@@ -32,7 +32,7 @@ class MoviesAdapter(private val movies: List<Movies>) : RecyclerView.Adapter<Mov
         holder.binding.imdbScore.text = user.imdbscore.toString()
         holder.binding.imageView.setImageResource(user.imageView)
         holder.binding.infoButton.setOnClickListener {
-        holder.itemView.context.showCustomToast("${user.moviename}${user.imdbscore}")
+        holder.itemView.context.showCustomToast("${user.moviename}  IMDB: ${user.imdbscore}")
         }
 
     }
